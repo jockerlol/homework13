@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "homework13"
+version = "0.1.0"
+description = ""
+authors = ["jockerlol <jockerlol1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.104.1"
+alembic = "^1.12.1"
+sqlalchemy = "^2.0.22"
+pydantic = "^2.4.2"
+pydantic-settings = "^2.0.3"
+fastapi-limiter = "^0.1.5"
+libgravatar = "^1.0.4"
+cloudinary = "^1.36.0"
+passlib = "^1.7.4"
+fastapi-mail = "^1.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
